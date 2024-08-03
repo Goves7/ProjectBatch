@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-03T17:14:10 IST" name="Suite" finished-at="2024-08-03T17:15:11 IST" duration-ms="60636">
+    <groups>
+      <group name="System Test">
+        <method signature="BuyProductTestCase.buyProductTC()[pri:0, instance:testPackage.BuyProductTestCase@13fd2ccd]" name="buyProductTC" class="testPackage.BuyProductTestCase"/>
+      </group> <!-- System Test -->
+      <group name="Integration Test">
+        <method signature="AddToCartTestCase.addToCartTC()[pri:0, instance:testPackage.AddToCartTestCase@6bd61f98]" name="addToCartTC" class="testPackage.AddToCartTestCase"/>
+        <method signature="RemoveProductFromCartTestCase.removeProductTC()[pri:0, instance:testPackage.RemoveProductFromCartTestCase@48aca48b]" name="removeProductTC" class="testPackage.RemoveProductFromCartTestCase"/>
+      </group> <!-- Integration Test -->
+      <group name="Functionality Test">
+        <method signature="InvalidLoginTestCase.invalidLoginTC()[pri:0, instance:testPackage.InvalidLoginTestCase@4efac082]" name="invalidLoginTC" class="testPackage.InvalidLoginTestCase"/>
+        <method signature="ValidLoginTestCase.validLoginTC()[pri:0, instance:testPackage.ValidLoginTestCase@4659191b]" name="validLoginTC" class="testPackage.ValidLoginTestCase"/>
+      </group> <!-- Functionality Test -->
+    </groups>
+    <test started-at="2024-08-03T17:14:10 IST" name="Test" finished-at="2024-08-03T17:15:11 IST" duration-ms="60636">
+      <class name="testPackage.ValidLoginTestCase">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testPackage.ValidLoginTestCase@4659191b]" started-at="2024-08-03T17:14:10 IST" name="browserSetup" finished-at="2024-08-03T17:14:16 IST" duration-ms="5446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="validLoginTC()[pri:0, instance:testPackage.ValidLoginTestCase@4659191b]" started-at="2024-08-03T17:14:16 IST" name="validLoginTC" finished-at="2024-08-03T17:14:19 IST" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTC -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testPackage.ValidLoginTestCase@4659191b]" started-at="2024-08-03T17:14:19 IST" name="browserTearDown" finished-at="2024-08-03T17:14:19 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testPackage.ValidLoginTestCase -->
+      <class name="testPackage.RemoveProductFromCartTestCase">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testPackage.RemoveProductFromCartTestCase@48aca48b]" started-at="2024-08-03T17:14:40 IST" name="browserSetup" finished-at="2024-08-03T17:14:44 IST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="removeProductTC()[pri:0, instance:testPackage.RemoveProductFromCartTestCase@48aca48b]" started-at="2024-08-03T17:14:44 IST" name="removeProductTC" finished-at="2024-08-03T17:14:49 IST" duration-ms="4810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductTC -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testPackage.RemoveProductFromCartTestCase@48aca48b]" started-at="2024-08-03T17:14:49 IST" name="browserTearDown" finished-at="2024-08-03T17:14:49 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testPackage.RemoveProductFromCartTestCase -->
+      <class name="testPackage.InvalidLoginTestCase">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testPackage.InvalidLoginTestCase@4efac082]" started-at="2024-08-03T17:14:19 IST" name="browserSetup" finished-at="2024-08-03T17:14:23 IST" duration-ms="4008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="invalidLoginTC()[pri:0, instance:testPackage.InvalidLoginTestCase@4efac082]" started-at="2024-08-03T17:14:23 IST" name="invalidLoginTC" finished-at="2024-08-03T17:14:32 IST" duration-ms="8930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTC -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testPackage.InvalidLoginTestCase@4efac082]" started-at="2024-08-03T17:14:32 IST" name="browserTearDown" finished-at="2024-08-03T17:14:33 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testPackage.InvalidLoginTestCase -->
+      <class name="testPackage.BuyProductTestCase">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testPackage.BuyProductTestCase@13fd2ccd]" started-at="2024-08-03T17:14:49 IST" name="browserSetup" finished-at="2024-08-03T17:14:53 IST" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="buyProductTC()[pri:0, instance:testPackage.BuyProductTestCase@13fd2ccd]" started-at="2024-08-03T17:14:53 IST" name="buyProductTC" finished-at="2024-08-03T17:15:10 IST" duration-ms="16721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductTC -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testPackage.BuyProductTestCase@13fd2ccd]" started-at="2024-08-03T17:15:10 IST" name="browserTearDown" finished-at="2024-08-03T17:15:11 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testPackage.BuyProductTestCase -->
+      <class name="testPackage.AddToCartTestCase">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testPackage.AddToCartTestCase@6bd61f98]" started-at="2024-08-03T17:14:33 IST" name="browserSetup" finished-at="2024-08-03T17:14:37 IST" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="addToCartTC()[pri:0, instance:testPackage.AddToCartTestCase@6bd61f98]" started-at="2024-08-03T17:14:37 IST" name="addToCartTC" finished-at="2024-08-03T17:14:39 IST" duration-ms="1745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTC -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testPackage.AddToCartTestCase@6bd61f98]" started-at="2024-08-03T17:14:39 IST" name="browserTearDown" finished-at="2024-08-03T17:14:40 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testPackage.AddToCartTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

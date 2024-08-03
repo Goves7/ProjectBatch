@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testPackage.ValidLoginTestCase">
+        <methods>
+          <include name="validLoginTC"/>
+        </methods>
+      </class> <!-- testPackage.ValidLoginTestCase -->
+      <class name="testPackage.BuyProductTestCase">
+        <methods>
+          <include name="buyProductTC"/>
+        </methods>
+      </class> <!-- testPackage.BuyProductTestCase -->
+      <class name="testPackage.InvalidLoginTestCase">
+        <methods>
+          <include name="invalidLoginTC"/>
+        </methods>
+      </class> <!-- testPackage.InvalidLoginTestCase -->
+      <class name="testPackage.RemoveProductFromCartTestCase">
+        <methods>
+          <include name="removeProductTC"/>
+        </methods>
+      </class> <!-- testPackage.RemoveProductFromCartTestCase -->
+      <class name="testPackage.RegisterTestCase">
+        <methods>
+          <include name="registerTC"/>
+        </methods>
+      </class> <!-- testPackage.RegisterTestCase -->
+      <class name="testPackage.AddToCartTestCase">
+        <methods>
+          <include name="addToCartTC"/>
+        </methods>
+      </class> <!-- testPackage.AddToCartTestCase -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
